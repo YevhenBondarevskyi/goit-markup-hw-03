@@ -47,7 +47,10 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
 }
-.nav-header {}
+.nav-header {
+    display: flex;
+    align-items: center;
+}
 
 .header-content .logo-header {
     font-family: "Raleway", sans-serif;
@@ -69,13 +72,10 @@ border-bottom: 1px solid #e7e9fc;
 .nav-header-list {
     display: flex;
     align-items: center;
-}
-
-.nov-header-item {
-    display: flex;
-    align-items: center;
     gap: 40px;
 }
+
+.nov-header-item {}
 
 .item-nov-link {
     padding: 24px 0;
